@@ -1,6 +1,9 @@
 # opskube_assignment
 
-A new Flutter project.
+Hey there,
+This app displays the list of posts made by the data fetched from the api https://gorest.co.in/public/v1/posts.
+Here is a look of the application.
+![Screenshot_2021-08-27-22-25-06-18_7731c078d1f9a9c87ec9ae9d233fbf82](https://user-images.githubusercontent.com/51168410/131162841-3f8d57c1-94cc-46c5-b4f1-1dbe3e7ef888.jpg)
 
 ## Getting Started
 

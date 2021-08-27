@@ -53,12 +53,13 @@ class _PostWidgetState extends State<PostWidget> {
                     color: Color(0xffC31432),
                     fontWeight: FontWeight.w500),
                 textAlign: TextAlign.center,
+                    maxLines: 3,
               )),
               // SizedBox(
               //   height: 10,
               // ),
               Expanded(
-                flex: 35,
+                flex: 30,
                 child: Container(
                   width: double.maxFinite,
                   child: Card(
@@ -70,6 +71,7 @@ class _PostWidgetState extends State<PostWidget> {
                         fontSize: 12,
                         fontFamily: "OpenSans",),
                       textAlign: TextAlign.center,
+                      maxLines: 9,
                     ),
                   )),
                 ),

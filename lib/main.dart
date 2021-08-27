@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:opskube_assignment/display_screen.dart';
 import 'package:opskube_assignment/loading_screen.dart';
 
-import 'networking.dart';
 
 void main()  {
   runApp(

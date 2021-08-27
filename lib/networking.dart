@@ -8,8 +8,7 @@ class NetworkHelper {
   final String urls;
 
   Future getData() async {
-    var url = Uri.parse(urls);
-    Response response = await get(url);
+    var url = Uri.parse(urls);    Response response = await get(url);
     if (response.statusCode == 200) {
       String data = response.body;
       return jsonDecode(data);
